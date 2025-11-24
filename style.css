@@ -1,0 +1,22 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* La famiglia del font */
+    font-size: 18px; /* La dimensione del font principale nei tag <p></p> */
+    background-color: #fff1d8; /* Il colore dello sfondo della pagina web */
+    color: #3b1c15; /* Il colore del testo */ 
+}
+h1 {
+    color: #1b0f05; /* Il colore dell'intestazione */
+    font-size: 48px; /* La dimensione del font dell'intestazione */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    color: #251507
+}
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 40px;
+    border: 2px solid #3b1c15;
+}
