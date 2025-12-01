@@ -1,0 +1,72 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* La famiglia del font */
+    font-size: 18px; /* La dimensione del font principale nei tag <p></p> */
+    background-color: rgb(247, 241, 228);
+    padding-left: 5em;
+    padding-right: 5em;
+}
+h1 {
+    color: #1e0f03; /* Il colore dell'intestazione */
+    font-size: 48px; /* La dimensione del font dell'intestazione */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+
+h1:hover { 
+    animation: animazione1 10s; 
+}
+@keyframes animazione1 {
+    0%   { color: #1e0f03; font-size: 48px;}
+    10%  { color: #743806; font-size: 52px;}
+    90% { color: #743806; font-size: 52px;}
+    100%   { color: #1e0f03; font-size: 48px;}
+}
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    color: #1e0f03
+}
+h2:hover {
+    animation: animazione2 10s;
+}
+@keyframes animazione2 {
+    0%   { color: #1e0f03; font-size: 32px;}
+    10%  { color: #743806; font-size: 34px;}
+    90%  { color: #743806; font-size: 34px;}
+    100% { color: #1e0f03; font-size: 32px;}
+}
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 0.5em;
+    border: 4px solid hsla(34, 89%, 19%, 0.3);
+}
+img:hover {
+    animation: animazione3 10s;
+}
+@keyframes animazione3 {
+    0%   { width: 50%; }
+    10%  { width: 60%; }
+    90%  { width: 60%; }
+    100% { width: 50%; }
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1e0f03
+}
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tutto {
+    display: flex;
+    gap: 20px;
+    width: 100%;             /* Assicura che usi lo spazio disponibile */
+    max-width: 1200px;       /* Limita la larghezza massima del layout */
+    margin-left: auto;       /* Margine sinistro automatico */
+    margin-right: auto;      /* Margine destro automatico */
+}
+.parte_sinistra {
+    flex: 3;
+}
+.parte_destra {
+    flex: 1;
+}
